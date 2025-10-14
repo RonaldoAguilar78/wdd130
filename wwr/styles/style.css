@@ -73,7 +73,7 @@ footer p {
 }    
 
 footer p a:hover {
-    text-decoration: underline;
+    text-decoration: none;
 }  
 
 /* more style to the icon img */
