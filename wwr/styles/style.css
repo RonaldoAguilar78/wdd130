@@ -1,3 +1,26 @@
+/*Fonts for my site*/
+
+@import url('https://fonts.googleapis.com/css2?family=Syne+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Offside&family=Syne+Mono&display=swap');
+
+.offside-regular {
+  font-family: "Offside", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+/* Apply to all h1 and home title elements */
+h1 {
+    font-family: 'Syne Mono', monospace;
+}
+
+/* Apply to all h2 elements */
+h2 {
+    font-family: 'Syne Mono', monospace;
+    margin: 0;
+}
+
 /*set the alignment of the page*/
 #content {
     max-width: 1600px;
@@ -6,6 +29,7 @@
 
 nav a {
     text-align: center;
+    font-family: "Offside", sans-serif;
 }
 
 #hero-msg h1, #hero-msg h4 {
@@ -23,11 +47,14 @@ main section {
 #background {
     height: 725px;
 }
-
-/*setting the background color for the different elements*/
+/*setting the background color, font and style for the different elements*/
 body {
     background-color: #30BCED;
     color: black;
+    font-family: "Offside", sans-serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
 }
 
 header {
@@ -39,12 +66,17 @@ nav a:hover {
     background-color:#A5FFF8;
     color: black;
     text-decoration: none;
+    padding: 35px;
 }
 
 .book, .join {
     background-color: #2B59C3;
     color: black;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 
 .book:hover, .join:hover {
@@ -60,30 +92,64 @@ nav a:hover {
 .msg {
     background-color: #EC9EEB;
     color: black;
+    line-height: 1.5em;
+    padding: 35px;
 }
 
 footer {
     background-color: #A5FFF8;
     color: black;
     text-decoration: none;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 
 footer p {
     font-size: 1.2em;
+    font-family: "Offside", sans-serif;
 }    
+
 
 footer p a:hover {
     text-decoration: none;
+    font-family: "Offside", sans-serif;
 }  
 
+.home-title {
+    font-size: 2em;
+    margin-top: 10px;
+}
+
+.msg p {
+    font-size: 0.8em;
+    padding-bottom: 15px;
+}
+
+footer .social img {
+    padding-top: 15px;
+}
+
+.rivers-card, .camping-card, .rapids-card {
+    margin: 200px 0;
+}
+
+.card-img {
+    border: 10px solid #000000;
+}
+
+main section img {
+    box-sizing: border-box;
+}
 /* more style to the icon img */
 
 .logo {
     width: 80px;
+    padding-top: 5px;
 }
 
 .icon {
     width: 80px;
+    padding-top: 10px;
 }
 
 #hero-img {
