@@ -1,0 +1,116 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@300;400;700&display=swap');
+
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Apply font to the body */
+body {
+    font-family: "Orbitron", "Audiowide";
+    background-color: #000;
+    color: #4c5d7a;
+}
+
+/* Header */
+header {
+    display: flex;
+    align-items: center;
+    padding: 20px 40px;
+    background-color: #000000;
+    border-bottom: 2px solid #dcdcdc;
+}
+
+.logo {
+    width: 80px;
+}
+
+/* Nav box styling */
+nav {
+    display: flex;
+    gap: 40px;
+}
+
+nav a {
+    background-color: #000000;
+    color: white;
+    text-decoration: none;
+    padding: 12px 25px;
+    border-radius: 6px;
+}
+
+nav a:hover {
+    background-color: #000000;
+}
+
+/* Main secion style */
+.home-grid {
+    max-width: 1200px;
+    margin: 40px auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 60px;
+    column-gap: 40px;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.homepage1,
+.homepage2 {
+    width: 100%;
+    border-radius: 10px;
+}
+
+/* Text boxes */
+.msg1, .msg2 {
+    background-color: #000000;
+    padding: 25px;
+    border-radius: 10px;
+    line-height: 1.6;
+}
+
+/* Making all Titles to use Audiowide */
+.msg1 h2,
+.msg2 h2,
+header a,
+nav a {
+    font-family: "Audiowide", "Orbitron";
+}
+
+/* Alternate the text and the pictures */
+.homepage1 { grid-column: 1; grid-row: 1; }
+.msg1      { grid-column: 2; grid-row: 1; }
+
+.msg2      { grid-column: 1; grid-row: 2; }
+.homepage2 { grid-column: 2; grid-row: 2; }
+
+/* Footer style */
+footer {
+    background-color: #000000;
+    padding: 30px;
+    text-align: center;
+    margin-top: 60px;
+}
+
+footer p {
+    margin: 6px 0;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+    font-family: "Audiowide", sans-serif;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+.social img {
+    width: 35px;
+    margin: 10px;
+}
